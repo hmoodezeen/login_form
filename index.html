@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Animated Login Form</title>
+	<link rel="stylesheet" type="text/css" href="css/login_style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<img class="wave" src="img/wave.png">
+	<div class="container">
+		<div class="img">
+			<img class="img_b" src="img/b1.svg">
+		</div>
+		<div class="login-content">
+
+			<form class="lft" id="login_form" method="POST">
+				<img src="img/avatar.svg">
+				<h2 class="title">Welcome</h2>
+				<div class="input-div one">
+					<div class="i">
+						<i class="fas fa-user"></i>
+					</div>
+					<div class="div">
+						<h5>Username</h5>
+						<input type="text" class="input">
+					</div>
+				</div>
+				<div class="input-div pass">
+					<div class="i">
+						<i class="fas fa-lock"></i>
+					</div>
+					<div class="div">
+						<h5>Password</h5>
+						<input type="password" class="input">
+					</div>
+				</div>
+				<a>Forgot Password?</a>
+				<a id="togglee">Create an account</a>
+				<br>
+				<input type="button" class="btn" value="Login">
+
+			</form>
+
+
+			<form class="rit" id="singin_form" method="POST">
+				<img src="img/avatar2.svg">
+				<h2 class="title">Welcome</h2>
+				<divs class="input_div one">
+					<div class="i">
+						<i class="fas fa-user"></i>
+					</div>
+					<div class="div">
+						<h5>Username</h5>
+						<input type="text" class="input">
+					</div>
+				</divs>
+				<div class="input_div pass">
+					<div class="i">
+						<i class="fas fa-lock"></i>
+					</div>
+					<div class="div">
+						<h5>Password</h5>
+						<input type="password" class="input">
+					</div>
+				</div>
+				<div class="input_div pass">
+					<div class="i">
+						<i class="fas fa-lock"></i>
+					</div>
+					<div class="div">
+						<h5>Confurm Password</h5>
+						<input type="password" class="input">
+					</div>
+				</div>
+				<a id="toggle">I already have an account</a>
+				<input id="btn2" type="button" class="btn" value="Singin">
+			</form>
+
+
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jq_login.js"></script>
+	<script type="text/javascript" src="js/main_login.js"></script>
+
+</body>
+
+</html>
